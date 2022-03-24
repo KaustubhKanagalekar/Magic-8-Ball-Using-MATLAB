@@ -1,7 +1,7 @@
 # Magic-8-Ball-Using-MATLAB
 Users can play with this program by asking Yes-No questions and receiving a prediction. You would need to specify how many questions you would be asking, and the program will function accordingly 
 
-
+<<
 % x is asking for how many predictions the user wants
 x = input('How many predictions do you want?')
 %This will display the results of the prediction(s)
@@ -30,4 +30,4 @@ function magic8(n_times_simulation)
             end
     end
 end
-
+<<
