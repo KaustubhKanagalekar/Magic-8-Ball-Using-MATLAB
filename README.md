@@ -4,7 +4,7 @@ Users can play with this program by asking Yes-No questions and receiving a pred
 % This variable is asking for how many predictions the user wants
 Total_Predictions = input('How many predictions do you want?')
 %This will display the results of the prediction(s)
-magic8(x)
+magic8(Total_Predictions)
 
 
 function magic8(n_times_simulation)
@@ -29,5 +29,6 @@ function magic8(n_times_simulation)
             end
     end
 end
+
 
 
